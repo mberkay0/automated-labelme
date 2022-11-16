@@ -8,7 +8,8 @@
 
 <div align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/pypi/pyversions/torch.svg"></a>
-  ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white"></a>
+     
 </div>
 
 <div align="center">
