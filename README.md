@@ -36,12 +36,15 @@ It is written in Python and uses Qt for its graphical interface.
 
 ## Features
 
-- [x] Image annotation for polygon, rectangle, circle, line and point. ([tutorial](examples/tutorial))
+- [x] Image annotation for polygon, rectangle, circle, line and point. 
 - [x] Image flag annotation for classification and cleaning. ([#166](https://github.com/wkentaro/labelme/pull/166))
-- [x] Video annotation. ([video annotation](examples/video_annotation))
+- [x] Video annotation. 
 - [x] GUI customization (predefined labels / flags, auto-saving, label validation, etc). ([#144](https://github.com/wkentaro/labelme/pull/144))
-- [x] Exporting VOC-format dataset for semantic/instance segmentation. ([semantic segmentation](examples/semantic_segmentation), [instance segmentation](examples/instance_segmentation))
-- [x] Exporting COCO-format dataset for instance segmentation. ([instance segmentation](examples/instance_segmentation))
+- [x] Exporting VOC-format dataset for semantic/instance segmentation.
+- [x] Exporting COCO-format dataset for instance segmentation. 
+- [x] Pretrained Model for semi-auto image annotation [Drive link for PCM Cell Detection (bbox and segmentation auto annotation)](https://drive.google.com/)
+- [x] Ease of use in automatic detection.
+- [x] Useful for fast data labelling in data-scarce environments such as cell detection and segmentation.
 
 
 
