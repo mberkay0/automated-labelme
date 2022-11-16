@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  Image Polygonal Annotation with Python
+  Image Annotation Tool with Automated [labelme](https://github.com/wkentaro/labelme) in Python 
 </h4>
 
 <div align="center">
