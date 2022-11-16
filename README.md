@@ -31,7 +31,7 @@ It is written in Python and uses Qt for its graphical interface.
 
 
 
-<img src="/images/1.gif" width="30%" /> <img src="/images/2.gif" width="30%" /> 
+<img src="images/1.gif" width="30%" /> <img src="images/2.gif" width="30%" /> 
 <i>Various primitives (polygon, rectangle, circle, line, and point).</i>
 
 
