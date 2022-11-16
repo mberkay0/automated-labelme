@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  Image Annotation Tool with Automated <a href="[labelme](https://github.com/wkentaro/labelme)"> in Python 
+  Image Annotation Tool with Automated <a href="https://github.com/wkentaro/labelme">labelme<a/> in Python 
 </h4>
 
 <div align="center">
