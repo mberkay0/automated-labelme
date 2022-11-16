@@ -29,11 +29,7 @@
 Labelme is a graphical image annotation tool inspired by <http://labelme.csail.mit.edu>.  
 It is written in Python and uses Qt for its graphical interface.
 
-<img src="examples/instance_segmentation/data_dataset_voc/JPEGImages/2011_000006.jpg" width="19%" /> <img src="examples/instance_segmentation/data_dataset_voc/SegmentationClassPNG/2011_000006.png" width="19%" /> <img src="examples/instance_segmentation/data_dataset_voc/SegmentationClassVisualization/2011_000006.jpg" width="19%" /> <img src="examples/instance_segmentation/data_dataset_voc/SegmentationObjectPNG/2011_000006.png" width="19%" /> <img src="examples/instance_segmentation/data_dataset_voc/SegmentationObjectVisualization/2011_000006.jpg" width="19%" />  
-<i>VOC dataset example of instance segmentation.</i>
 
-<img src="examples/semantic_segmentation/.readme/annotation.jpg" width="30%" /> <img src="examples/bbox_detection/.readme/annotation.jpg" width="30%" /> <img src="examples/classification/.readme/annotation_cat.jpg" width="35%" />  
-<i>Other examples (semantic segmentation, bbox detection, and classification).</i>
 
 <img src="https://user-images.githubusercontent.com/4310419/47907116-85667800-de82-11e8-83d0-b9f4eb33268f.gif" width="30%" /> <img src="https://user-images.githubusercontent.com/4310419/47922172-57972880-deae-11e8-84f8-e4324a7c856a.gif" width="30%" /> <img src="https://user-images.githubusercontent.com/14256482/46932075-92145f00-d080-11e8-8d09-2162070ae57c.png" width="32%" />  
 <i>Various primitives (polygon, rectangle, circle, line, and point).</i>
@@ -53,8 +49,9 @@ It is written in Python and uses Qt for its graphical interface.
 ## Requirements
 
 - Ubuntu / macOS / Windows
-- Python3
+- Python3.7 or more
 - [PyQt5 / PySide2](http://www.riverbankcomputing.co.uk/software/pyqt/intro)
+- [Pytorch](https://pytorch.org/)
 
 
 ## Installation
@@ -81,7 +78,7 @@ pip install labelme
 # conda install labelme -c conda-forge
 ```
 
-### Ubuntu
+### Linux
 
 ```bash
 sudo apt-get install labelme
@@ -126,29 +123,6 @@ pip install labelme
 Run `labelme --help` for detail.  
 The annotations are saved as a [JSON](http://www.json.org/) file.
 
-```bash
-labelme  # just open gui
-
-# tutorial (single image example)
-cd examples/tutorial
-labelme apc2016_obj3.jpg  # specify image file
-labelme apc2016_obj3.jpg -O apc2016_obj3.json  # close window after the save
-labelme apc2016_obj3.jpg --nodata  # not include image data but relative image path in JSON file
-labelme apc2016_obj3.jpg \
-  --labels highland_6539_self_stick_notes,mead_index_cards,kong_air_dog_squeakair_tennis_ball  # specify label list
-
-# semantic segmentation example
-cd examples/semantic_segmentation
-labelme data_annotated/  # Open directory to annotate all images in it
-labelme data_annotated/ --labels labels.txt  # specify label list with a file
-```
-
-For more advanced usage, please refer to the examples:
-
-* [Tutorial (Single Image Example)](examples/tutorial)
-* [Semantic Segmentation Example](examples/semantic_segmentation)
-* [Instance Segmentation Example](examples/instance_segmentation)
-* [Video Annotation Example](examples/video_annotation)
 
 ### Command Line Arguments
 - `--output` specifies the location that annotations will be written to. If the location ends with .json, a single annotation will be written to this file. Only one image can be annotated if a location is specified with .json. If the location does not end with .json, the program will assume it is a directory. Annotations will be stored in this directory with a name that corresponds to the image that the annotation was made on.
@@ -163,19 +137,6 @@ For more advanced usage, please refer to the examples:
 - **How to load label PNG file?** See [examples/tutorial](examples/tutorial#how-to-load-label-png-file).
 - **How to get annotations for semantic segmentation?** See [examples/semantic_segmentation](examples/semantic_segmentation).
 - **How to get annotations for instance segmentation?** See [examples/instance_segmentation](examples/instance_segmentation).
-
-
-## Developing
-
-```bash
-git clone https://github.com/wkentaro/labelme.git
-cd labelme
-
-# Install anaconda3 and labelme
-curl -L https://github.com/wkentaro/dotfiles/raw/main/local/bin/install_anaconda3.sh | bash -s .
-source .anaconda3/bin/activate
-pip install -e .
-```
 
 
 ## How to build standalone executable
@@ -195,20 +156,19 @@ dist/labelme --version
 ```
 
 
-## How to contribute
-
-Make sure below test passes on your environment.  
-See `.github/workflows/ci.yml` for more detail.
-
-```bash
-pip install -r requirements-dev.txt
-
-flake8 .
-black --line-length 79 --check labelme/
-MPLBACKEND='agg' pytest -vsx tests/
-```
-
 
 ## Acknowledgement
 
 This repo is the fork of [wkentaro/pylabelme](https://github.com/wkentaro/labelme).
+  
+* http://labelme.csail.mit.edu
+
+* [LabelMe The Open annotation tool](https://github.com/CSAILVision/LabelMeAnnotationTool)
+
+* [mpitid/pylabelme](https://github.com/mpitid/pylabelme)
+
+* [labelme v5.1.0](https://github.com/wkentaro/labelme)
+
+* [torchvision](https://github.com/pytorch/vision)
+
+* [ConvNeXt MaskR-CNN](https://github.com/mberkay0/ConvNeXt-MaskRCNN)
