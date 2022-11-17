@@ -23,7 +23,7 @@
 </div>
 
 <h1 align="center">
-  <img src="/images/semi_labelme_cell_annotation3.jpg"><br/>
+  <img src="/images/automated-labelme.jpg" width="50%"><br/>
 </h1>
 
 <br/>
