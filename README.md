@@ -49,7 +49,7 @@ Also, if you want to train the model for your specific topic, see [ConvNeXt Mask
 - [x] GUI customization (predefined labels / flags, auto-saving, label validation, etc). ([#144](https://github.com/wkentaro/labelme/pull/144))
 - [x] Exporting VOC-format dataset for semantic/instance segmentation.
 - [x] Exporting COCO-format dataset for instance segmentation. 
-- [x] Pretrained Model for semi-auto image annotation [Drive link for PCM Cell Detection (bbox and segmentation auto annotation)](https://drive.google.com/)
+- [x] Pretrained Model for semi-auto image annotation [Drive link for PCM Cell Detection (bbox and segmentation auto annotation)](https://drive.google.com/file/d/1I5NXHJXqMYjLBf6HSCDWvYAnZx_X8b8v/view?usp=share_link)
 - [x] Ease of use in automatic detection.
 - [x] Useful for fast data labelling in data-scarce environments such as cell detection, segmentation and tracking.
 
@@ -66,32 +66,18 @@ Also, if you want to train the model for your specific topic, see [ConvNeXt Mask
 ## Installation
 
 
-### Anaconda
-
-You need install [Anaconda](https://www.anaconda.com/), then run below:
-
-```bash
-# python3
-conda create --name=labelme python=3
-source activate labelme
-# conda install -c conda-forge pyside2
-# conda install pyqt
-# pip install pyqt5  # pyqt5 can be installed via pip on python3
-pip install labelme
-# or you can install everything by conda command
-# conda install labelme -c conda-forge
-```
-
 ### Linux, Windows and MacOS
 
 ```bash
-sudo apt-get install labelme
-
-# or
-sudo pip3 install labelme
-
-# or install standalone executable from:
-# https://github.com/wkentaro/labelme/releases
+git clone https://github.com/mberkay0/automated-labelme.git
+  
+cd automated-labelme
+  
+python -m venv env
+# then activate virtual env.
+pip install -e labelme
+# then use from command line write labelme
+labelme
 ```
 
 
