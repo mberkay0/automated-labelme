@@ -23,7 +23,7 @@
 </div>
 
 <h1 align="center">
-  <img src="/images/automated-labelme.jpg" width="65%"><br/>
+  <img src="/images/automated-labelme.jpg" width="75%"><br/>
 </h1>
 
 <br/>
