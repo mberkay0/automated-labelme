@@ -30,8 +30,7 @@
 
 ## Description
 
-Labelme is a graphical image annotation tool inspired by <http://labelme.csail.mit.edu>.  
-It is written in Python and uses Qt for its graphical interface. You can find this tool at: [LabelMe in Python](https://github.com/wkentaro/labelme) In addition to this tool, a plugin has been developed that will provide automatic annotation for PCM time series, which have very few annotations and are very difficult to label due to artefacts. The method available at [ConvNeXt MaskR-CNN](https://github.com/mberkay0/ConvNeXt-MaskRCNN) uses the pre-trained model for the PCM data to obtain semi-automated annotated images. As a result, you can speed up annotation with the plugin developed for PCM images. 
+Labelme is a graphical image annotation tool inspired by <http://labelme.csail.mit.edu>. It is written in Python and uses Qt for its graphical interface. You can find this tool at: [LabelMe in Python](https://github.com/wkentaro/labelme) In addition to this tool, a plugin has been developed that will provide automatic annotation for PCM time series, which have very few annotations and are very difficult to label due to artefacts. The method available at [ConvNeXt MaskR-CNN](https://github.com/mberkay0/ConvNeXt-MaskRCNN) uses the pre-trained model for the PCM data to obtain semi-automated annotated images. As a result, you can speed up annotation with the plugin developed for PCM images. 
 
 Also, if you want to train the model for your specific topic, see [ConvNeXt MaskR-CNN](https://github.com/mberkay0/ConvNeXt-MaskRCNN). After you prepare your model, be sure to manipulate the [detector.py](https://github.com/mberkay0/automated-labelme/blob/main/labelme/detector.py) file and the [default_config.yaml](https://github.com/mberkay0/automated-labelme/blob/main/labelme/config/default_config.yaml) file based on your work. Comments that can manage these files are available inside the files.
 
