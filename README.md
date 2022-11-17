@@ -59,8 +59,8 @@ Also, if you want to train the model for your specific topic, see [ConvNeXt Mask
 
 - Ubuntu / macOS / Windows
 - Python3.7 or more
-- [PyQt5 / PySide2](http://www.riverbankcomputing.co.uk/software/pyqt/intro)
-- [Pytorch](https://pytorch.org/)
+- PyQt5 / PySide2
+- Pytorch
 
 
 ## Installation
