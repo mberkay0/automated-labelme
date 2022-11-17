@@ -57,7 +57,7 @@ Also, if you want to train the model for your specific topic, see [ConvNeXt Mask
 
 ## Requirements
 
-- Ubuntu / macOS / Windows
+- Linux / macOS / Windows
 - Python3.7 or more
 - PyQt5 / PySide2
 - Pytorch
@@ -65,12 +65,10 @@ Also, if you want to train the model for your specific topic, see [ConvNeXt Mask
 
 ## Installation
 
-- Platform agnostic installation: [Anaconda](#anaconda)
-- Platform specific installation: [Linux](#linux), [macOS](#macos), [Windows](#windows)
 
 ### Anaconda
 
-You need install [Anaconda](https://www.continuum.io/downloads), then run below:
+You need install [Anaconda](https://www.anaconda.com/), then run below:
 
 ```bash
 # python3
@@ -84,7 +82,7 @@ pip install labelme
 # conda install labelme -c conda-forge
 ```
 
-### Linux
+### Linux, Windows and MacOS
 
 ```bash
 sudo apt-get install labelme
@@ -93,33 +91,6 @@ sudo apt-get install labelme
 sudo pip3 install labelme
 
 # or install standalone executable from:
-# https://github.com/wkentaro/labelme/releases
-```
-
-### macOS
-
-```bash
-brew install pyqt  # maybe pyqt5
-pip install labelme
-
-# or
-brew install wkentaro/labelme/labelme  # command line interface
-# brew install --cask wkentaro/labelme/labelme  # app
-
-# or install standalone executable/app from:
-# https://github.com/wkentaro/labelme/releases
-```
-
-### Windows
-
-Install [Anaconda](https://www.continuum.io/downloads), then in an Anaconda Prompt run:
-
-```bash
-conda create --name=labelme python=3
-conda activate labelme
-pip install labelme
-
-# or install standalone executable/app from:
 # https://github.com/wkentaro/labelme/releases
 ```
 
