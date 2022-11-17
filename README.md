@@ -114,7 +114,7 @@ Otomatik işaretleme için Detect butonuna basın ve biraz bekleyin. Otomatik ol
 
 Aşağıdaki gibi otomatik algılama sonuçlarına ulaşabilirsiniz.
  
-<img src="/images/semi_labelme_cell_annotation3.jpg" width="65%"><img src="/images/bbox.jpg" width="65%"><br/>
+<img src="/images/semi_labelme_cell_annotation3.jpg" width="60%"><img src="/images/bbox.jpg" width="60%"><br/>
   
 
 Run `labelme --help` for detail.
