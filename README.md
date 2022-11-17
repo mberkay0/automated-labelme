@@ -65,11 +65,8 @@ Also, if you want to train the model for your specific topic, see [ConvNeXt Mask
 
 ## Installation
 
-There are options:
-
 - Platform agnostic installation: [Anaconda](#anaconda)
 - Platform specific installation: [Ubuntu](#ubuntu), [macOS](#macos), [Windows](#windows)
-- Pre-build binaries from [the release section](https://github.com/wkentaro/labelme/releases)
 
 ### Anaconda
 
