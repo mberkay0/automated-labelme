@@ -22,6 +22,10 @@
   <a href="https://www.youtube.com/playlist?list=PLI6LvFw0iflh3o33YYnVIfOpaO0hc5Dzw"><b>Youtube FAQ</b></a>
 </div>
 
+<h1 align="center">
+  <img src="/images/semi_labelme_cell_annotation3.jpg"><br/>
+</h1>
+
 <br/>
 
 ## Description
