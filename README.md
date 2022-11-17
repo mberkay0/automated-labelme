@@ -84,6 +84,8 @@ labelme
 
 
 ## Usage
+
+Before you begin, copy the pre-trained model into the [model folder](https://github.com/mberkay0/automated-labelme/tree/main/model). If you want to use the model used in the project, download it via the [link](https://drive.google.com/file/d/1I5NXHJXqMYjLBf6HSCDWvYAnZx_X8b8v/view?usp=share_link).
   
 * You can select the detection type from the "Select detection type" section under the "Detection" menu, either 'bbox' or 'mask'. By default, it comes mask.
 
