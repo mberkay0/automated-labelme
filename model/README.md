@@ -1,1 +1,1 @@
-Your own pre-trained model here!
+Your pre-trained model is here!
