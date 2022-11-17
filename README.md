@@ -66,7 +66,7 @@ Also, if you want to train the model for your specific topic, see [ConvNeXt Mask
 ## Installation
 
 - Platform agnostic installation: [Anaconda](#anaconda)
-- Platform specific installation: [Ubuntu](#ubuntu), [macOS](#macos), [Windows](#windows)
+- Platform specific installation: [Linux](#linux), [macOS](#macos), [Windows](#windows)
 
 ### Anaconda
 
