@@ -92,7 +92,7 @@ Tespit tipini Detection menusu altındaki tespit tipini seç bölümünden bbox 
   
 Daha sonra verileri yüklemek için aşağıdaki butonları kullanın.
  
-<img src="/images/open_data.jpg" width="60%"><br/> 
+<img src="/images/open_data.jpg" width="45%"><br/> 
 
 <img src="/images/semi_labelme_cell_annotation1.jpg" width="75%"><br/>
 
