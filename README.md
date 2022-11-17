@@ -76,7 +76,7 @@ cd automated-labelme
 python -m venv env
 # then activate virtual env.
 pip install -e labelme
-# then use from command line write labelme
+# then use from command line 
 labelme
 ```
 
