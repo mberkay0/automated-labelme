@@ -78,7 +78,7 @@ python -m venv env
 #.\env\Scripts\activate #Windows
 #./env/bin/activate #Linux, MacOS
 
-pip install -e labelme
+pip install -e .
 # then use from command line 
 labelme
 ```
