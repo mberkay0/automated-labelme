@@ -115,7 +115,7 @@ Otomatik işaretleme için Detect butonuna basın ve biraz bekleyin. Otomatik ol
 Aşağıdaki gibi otomatik algılama sonuçlarına ulaşabilirsiniz.
  
 <div align="center">
-  <img src="/images/semi_labelme_cell_annotation3.jpg" width="60%"><img src="/images/bbox.jpg" width="60%">
+  <img src="/images/semi_labelme_cell_annotation3.jpg" width="55%"><img src="/images/bbox.jpg" width="55%">
 <i>Automated annotation result types (polygon, rectangle).</i>
 </div>
   
