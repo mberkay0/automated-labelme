@@ -95,7 +95,7 @@ You can select the detection type from the "Select detection type" section under
 Then use the buttons below to load the data.
  
 <div align="center">
-  <img src="/images/open_data.jpg" width="45%"><br/> 
+  <img src="/images/open_data.jpg" width="35%"><br/> 
 </div>
 
 <div align="center">
