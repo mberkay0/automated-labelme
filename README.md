@@ -51,7 +51,7 @@ Also, if you want to train the model for your specific topic, see [ConvNeXt Mask
 - [x] Exporting COCO-format dataset for instance segmentation. 
 - [x] Pretrained Model for semi-auto image annotation [Drive link for PCM Cell Detection (bbox and segmentation auto annotation)](https://drive.google.com/)
 - [x] Ease of use in automatic detection.
-- [x] Useful for fast data labelling in data-scarce environments such as cell detection and segmentation.
+- [x] Useful for fast data labelling in data-scarce environments such as cell detection, segmentation and tracking.
 
 
 
