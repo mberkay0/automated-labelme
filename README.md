@@ -130,22 +130,7 @@ The annotations are saved as a [JSON](http://www.json.org/) file like COCO datas
 - The first time you run labelme, it will create a config file in `~/.labelmerc`. You can edit this file and the changes will be applied the next time that you launch labelme. If you would prefer to use a config file from another location, you can specify this file with the `--config` flag.
 - Without the `--nosortlabels` flag, the program will list labels in alphabetical order. When the program is run with this flag, it will display labels in the order that they are provided.
 
-
-## How to build standalone executable
-
-Below shows how to build the standalone executable on macOS, Linux and Windows.  
-
-```bash
-# Setup conda
-conda create --name labelme python=3.9
-conda activate labelme
-
-# Build the standalone executable
-pip install .
-pip install pyinstaller
-pyinstaller labelme.spec
-dist/labelme --version
-```
+For more details, check the forked repo.
 
 
 
