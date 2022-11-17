@@ -85,22 +85,22 @@ labelme
 
 
 ## Usage
-
-Tespit tipini Detection menusu altındaki tespit tipini seç bölümünden bbox ya da mask olacak şekilde seçebilirsiniz. Varsayılan olarak mask şeklinde gelmektedir. 
+  
+You can select the detection type from the "Select detection type" section under the "Detection" menu, either 'bbox' or 'mask'. By default, it comes mask.
 
 <img src="/images/labelme_detection_options.jpg" width="75%"><br/>
   
-Daha sonra verileri yüklemek için aşağıdaki butonları kullanın.
+Then use the buttons below to load the data.
  
 <img src="/images/open_data.jpg" width="45%"><br/> 
 
 <img src="/images/semi_labelme_cell_annotation1.jpg" width="75%"><br/>
 
-Otomatik işaretleme için diğer ayarlara bakalım. 
+Next, let's look at other settings for automatic annotation.
 
 <img src="/images/detection_options.jpg" width="60%"><br/>
   
-Eğer algılama tipini mask seçtiyseniz örnekleme sayısını değiştirebilirsiniz. Bu sayı algılanacak noktaların ne sıklıkla oluşturulacağını belirtir. 0 ile 120 arasında piksel değeri olarak girilebilir. 0'a yakın değerler daha çok nokta algılanmasına sağlar. 120'e yakın değerler daha az nokta algılanmasını sağlar. 0 verilirse algılanan tüm noktalar oluşturulur. Varsayılan olarak 25 değeri girilmiştir. Daha ayrıntılı işaretleme oluşturmak için 0'a yakın değerler girin.
+If you have selected the detection type mask, you can change the number of samples. This value is how often points to be detected are annotated. It is between 0 and 120. Deals close to 0 allow more points to be seen. Deals close to 120 enable fewer points to be seen. If 0 is given, all detected points are created. By default, a value of 25 comes. Enter values close to 0 to make a more detailed annotation.
   
 <img src="/images/subsample_option.jpg" width="55%"><br/>
 
@@ -108,11 +108,11 @@ Enter a value between 0 and 1 to access reliable results. A value close to 1 is 
   
 <img src="/images/threshold_option.jpg" width="55%"><br/>
  
-Otomatik işaretleme için Detect butonuna basın ve biraz bekleyin. Otomatik olarak algılanan tüm tespitler belirtilen tipte işaretlenecektir.
+Press the Detect button for automatic annotation and wait a bit. All automatically caught detections will be annotated in the specified type.
   
 <img src="/images/semi_labelme_cell_annotation2.jpg" width="75%"><br/>
 
-Aşağıdaki gibi otomatik algılama sonuçlarına ulaşabilirsiniz.
+Finally, you can get the automatic detection results below.
  
 <div align="center">
   <img src="/images/semi_labelme_cell_annotation3.jpg" width="50%"><img src="/images/bbox.jpg" width="50%">
