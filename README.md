@@ -76,7 +76,7 @@ cd automated-labelme
 python -m venv env
 # then activate virtual env.
 #.\env\Scripts\activate #Windows
-#./env/bin/activate #Linux
+#./env/bin/activate #Linux, MacOS
 
 pip install -e labelme
 # then use from command line 
